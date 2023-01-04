@@ -2,15 +2,17 @@
   "name": "sample-php-nodejs",
   "version": "0.0.1",
   "description": "PHP app with assets management with bower",
-  "devDependencies": {},
   "author": "Leo Unbekandt <leo@scalingo.com>",
   "license": "BSD",
   "engines": {
-    "node": "8.x"
+    "node": "v16.18.0"
   },
   "dependencies": {
-    "bower": "^1.7.9",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2"
+    "bower": "^1.8.14",
+    "gulp": "^4.0.2",
+    "gulp-sass": "5.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.57.1"
   }
 }
